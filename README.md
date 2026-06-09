@@ -1,4 +1,4 @@
-# MOST: Metro Ohmic Spatio-Temporal Framework for Disrupted OD Flow Forecasting
+# OhmicFlow: Forecasting transit passenger flow under extreme weather disruption via Ohm’s law
 
 ## How to Run
 
@@ -49,7 +49,7 @@ You can edit the event sets inside [summary.py](summary.py) to inspect different
 - EWE_data: OD flow and weather records for 17 extreme weather events over 10 years. 
 - Cache: cached preprocessed data.
 - Network Features: network structure features for different metro network periods.
-- Model: model implementations mentioned in the paper. TFT-GAT is MOST, others are baselines.
+- Model: model implementations mentioned in the paper. TFT-GAT is OhmicFlow, others are baselines.
 - Profile: configuration parameters.
 - Local Outputs: local results consistent with the paper.
 - Weights: saved model checkpoints.
